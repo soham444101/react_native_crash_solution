@@ -25,3 +25,10 @@ react-native-reanimated": "^3.15.5
 1. Check version using ls or why commond .because package.json show version not actual many time.
 2. Check the version compatibility with react native.
 3. For RN : 0.74.2 , react-native-gesture-handler@2.16.2 , compatible
+# Error 
+**Follow error occurs when we upgtrading version from 0.74.2 to 0.85.3 using Ai**
+[CXX1300] CMake '3.31.6' was not found
+
+# Solution 
+Create the dummy project with current react native version.
+**Compare the android/build.gradle and android/app/build.gradle**
